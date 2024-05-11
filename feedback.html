@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="TV Shows.html">
+    <link rel="stylesheet" href="Games & Apps.html">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="movies.html">
+    <link rel="stylesheet" href="Collections.html">
+
+    <div class="container"><img src="logo.png" alt=""></div>
+    <h1>Warner Bros</h1>
+
+</head>
+<body>
+ 
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="TV Shows.html">TV Shows</a></li>
+            <li><a href="Games & Apps.html">Games & Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <div class="topnav">
+                
+              </div>
+        </ul>
+    </nav>
+ 
+
+    <div class="container">
+<form style="background-color: #481e14; align-items: center; width: 100%;">
+    <div class="form-group">
+<label for="inputemail1" style="color: #9b3922; font-size: 40px; align-items: center;">Email </label>
+<input
+ type="Email" style="color:#9b3922;"
+ class="form-control" 
+ id="inputemail1" 
+ placeholder="enter your email..." 
+ />
+ <small id="emailhelp" class="form-text" style="color:#9b3922; font-size: 40px;"f>
+    share your feedback with us
+ </small>
+    </div>
+    <div class="Form-group">
+        <label for="feedback">Feadback</label>
+        <textarea  id="feedback"  rows="4" placeholder="enter your feedback here..." style="color: black; border-radius: 7px;">
+            
+        </textarea>
+
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="email()" style="margin-left: 25%; border-radius: 5px; width: 79px; align-items: center;">submit</button>
+</form>
+    </div>
+</body>
+</html>
